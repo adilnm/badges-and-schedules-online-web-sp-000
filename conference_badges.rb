@@ -11,7 +11,6 @@ end
 
 def assign_rooms(array)
   new_array=[]
-  count=1
-  array.each{|arr| new_array.push("Hello, #{arr}! You'll be assigned to room #{count}!")}
+  array.each{|arr| new_array.push("Hello, #{arr}! You'll be assigned to room #{array.index(arr)+1}!")}
   new_array
 end
