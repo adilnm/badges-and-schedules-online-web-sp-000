@@ -9,7 +9,7 @@ def batch_badge_creator(array)
   new_array
 end
 
-def assign_rooms(array)
+def assign_rooms()
   new_array=[]
   array.each{|arr| new_array.push("Hello, #{arr}! You'll be assigned to room #{array.index(arr)+1}!")}
   new_array
