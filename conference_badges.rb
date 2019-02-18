@@ -15,6 +15,6 @@ def assign_rooms(array)
   new_array
 end
 
-def printer
+def printer(j)
   assign_rooms.each{|arr| puts "#{arr}"}
 end
