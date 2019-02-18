@@ -14,3 +14,7 @@ def assign_rooms(array)
   array.each{|arr| new_array.push("Hello, #{arr}! You'll be assigned to room #{array.index(arr)+1}!")}
   new_array
 end
+
+def printer()
+  
+end
